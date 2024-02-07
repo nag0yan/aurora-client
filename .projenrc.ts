@@ -5,7 +5,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   cdkVersion: '2.126.0',
   defaultReleaseBranch: 'main',
   jsiiVersion: '~5.2.0',
-  name: 'aurora-client',
+  name: '@nag0yan/aurora-client',
   projenrcTs: true,
   repositoryUrl: 'https://github.com/matsui-ka/aurora-client.git',
 
