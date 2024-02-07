@@ -2,12 +2,12 @@ import { awscdk } from 'projen';
 const project = new awscdk.AwsCdkConstructLibrary({
   author: 'nag0yan',
   authorAddress: 'matsui-ka@kadokawa.jp',
-  cdkVersion: '2.1.0',
+  cdkVersion: '2.126.0',
   defaultReleaseBranch: 'main',
-  jsiiVersion: '~5.0.0',
-  name: 'ec2-with-rds',
+  jsiiVersion: '~5.2.0',
+  name: 'aurora-client',
   projenrcTs: true,
-  repositoryUrl: 'https://github.com/matsui-ka/ec2-with-rds.git',
+  repositoryUrl: 'https://github.com/matsui-ka/aurora-client.git',
 
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
